@@ -1,0 +1,20 @@
+{
+  "name": "node-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "tsc -p .",
+    "compile": "tsc -p .",
+    "start": "node ./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.61",
+    "tslint": "^5.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "typescript": "^2.3.0"
+  }
+}
